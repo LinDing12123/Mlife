@@ -1,0 +1,220 @@
+-----  MLife version 1.0 Input File  -------------------------------------------
+Test#18
+-----  Job Options  ------------------------------------------------------------
+false		  EchoInp           Echo input to <rootname>.echo as this file is being read.
+true              StrNames          Use channel names following a "$" instead of numbers when specifying channels in this input file.
+false		  OutData           Output modified data array after scaling and calculated channels. (currently unavailable)
+"%6.2e"          RealFmt            Format for outputting floating-point values.
+"Test18"          RootName          Root name for aggregate output files.
+-----  Input-Data Layout  ------------------------------------------------------
+5                 TitleLine         The row with the file title on it (zero if no title is available).
+0                 NamesLine         The row with the channel names on it (zero if no names are available or are specified below).
+0                 UnitsLine         The row with the channel units on it (zero if no units are available or are specified below).
+9                 FirstDataLine     The first row of data.
+133                 NumChans         The number of channels in each input file.
+ChanTitle    ChanUnits    Scale  Offset   PSF_Type   NumCols rows of data follow.  Title and units strings must be 10 characters or less.
+"Time"       "(sec)"       1.0    0.0	  0		
+"WindVxi"    "(m/sec)"     1.0    0.0     0
+"WindVyi"    "(m/sec)"     1.0    0.0     0
+"WindVzi"    "(m/sec)"     1.0    0.0     0
+"WaveElev"   "(m)"         1.0    1.0     0
+"Wave1Vxi"   "(m/sec)"     1.0    0.0     0
+"Wave1Vyi"   "(m/sec)"     1.0    0.0     0
+"Wave1Vzi"   "(m/sec)"     1.0    0.0     0
+"Wave1Axi"   "(m/sec^2)"   1.0    0.0     0
+"Wave1Ayi"   "(m/sec^2)"   1.0    0.0     0
+"Wave1Azi"   "(m/sec^2)"   1.0    0.0     0
+"GenPwr"     "(kW)"        1.0    0.0     0
+"GenTq"      "(kN·m)"      1.0    0.0     0
+"HSSBrTq"    "(kN·m)"      1.0    0.0     0
+"BldPitch1"  "(deg)"       1.0    0.0     0
+"BldPitch2"  "(deg)"       1.0    0.0     0
+"BldPitch3"  "(deg)"       1.0    0.0     0
+"Azimuth"    "(deg)"       1.0    0.0     0
+"RotSpeed"   "(rpm)"       1.0    0.0     0
+"GenSpeed"   "(rpm)"       1.0    0.0     0
+"NacYaw"     "(deg)"       1.0    0.0     0
+"NacYawErr"  "(deg)"       1.0    0.0     0
+"OoPDefl1"   "(m)"         1.0    0.0     0
+"IPDefl1"    "(m)"         1.0    0.0     0
+"TwstDefl1"  "(deg)"       1.0    0.0     0
+"OoPDefl2"   "(m)"         1.0    0.0     0
+"IPDefl2"    "(m)"         1.0    0.0     0
+"TwstDefl2"  "(deg)"       1.0    0.0     0
+"OoPDefl3"   "(m)"         1.0    0.0     0
+"IPDefl3"    "(m)"         1.0    0.0     0
+"TwstDefl3"  "(deg)"       1.0    0.0     0
+"TwrClrnc1"  "(m)"         1.0    0.0     0
+"TwrClrnc2"  "(m)"         1.0    0.0     0
+"TwrClrnc3"  "(m)"         1.0    0.0     0
+"NcIMUTAxs"  "(m/sec^2)"   1.0    0.0     0
+"NcIMUTAys"  "(m/sec^2)"   1.0    0.0     0
+"NcIMUTAzs"  "(m/sec^2)"   1.0    0.0     0
+"TTDspFA"    "(m)"         1.0    0.0     0
+"TTDspSS"    "(m)"         1.0    0.0     0
+"TTDspTwst"  "(deg)"       1.0    0.0     0
+"PtfmSurge"  "(m)"         1.0    0.0     0
+"PtfmSway"   "(m)"         1.0    0.0     0
+"PtfmHeave"  "(m)"         1.0    0.0     0
+"PtfmRoll"   "(deg)"       1.0    0.0     0
+"PtfmPitch"  "(deg)"       1.0    0.0     0
+"PtfmYaw"    "(deg)"       1.0    0.0     0
+"PtfmTAxt"   "(m/sec^2)"   1.0    0.0     0
+"PtfmTAyt"   "(m/sec^2)"   1.0    0.0     0
+"PtfmTAzt"   "(m/sec^2)"   1.0    0.0     0
+"RootFxc1"   "(kN)"        1.0    0.0     0
+"RootFyc1"   "(kN)"        1.0    0.0     0
+"RootFzc1"   "(kN)"        1.0    0.0     0
+"RootMxc1"   "(kN·m)"      1.0    0.0     0
+"RootMyc1"   "(kN·m)"      1.0    0.0     0
+"RootMzc1"   "(kN·m)"      1.0    0.0     0
+"RootFxc2"   "(kN)"        1.0    0.0     0
+"RootFyc2"   "(kN)"        1.0    0.0     0
+"RootFzc2"   "(kN)"        1.0    0.0     0
+"RootMxc2"   "(kN·m)"      1.0    0.0     0
+"RootMyc2"   "(kN·m)"      1.0    0.0     0
+"RootMzc2"   "(kN·m)"      1.0    0.0     0
+"RootFxc3"   "(kN)"        1.0    0.0     0
+"RootFyc3"   "(kN)"        1.0    0.0     0
+"RootFzc3"   "(kN)"        1.0    0.0     0
+"RootMxc3"   "(kN·m)"      1.0    0.0     0
+"RootMyc3"   "(kN·m)"      1.0    0.0     0
+"RootMzc3"   "(kN·m)"      1.0    0.0     0
+"Spn1MLxb1"  "(kN·m)"      1.0    0.0     0
+"Spn1MLyb1"  "(kN·m)"      1.0    0.0     0
+"Spn1MLzb1"  "(kN·m)"      1.0    0.0     0
+"Spn1MLxb2"  "(kN·m)"      1.0    0.0     0
+"Spn1MLyb2"  "(kN·m)"      1.0    0.0     0
+"Spn1MLzb2"  "(kN·m)"      1.0    0.0     0
+"Spn1MLxb3"  "(kN·m)"      1.0    0.0     0
+"Spn1MLyb3"  "(kN·m)"      1.0    0.0     0
+"Spn1MLzb3"  "(kN·m)"      1.0    0.0     0
+"RotThrust"  "(kN)"        1.0    0.0     0
+"LSSGagFya"  "(kN)"        1.0    0.0     0
+"LSSGagFza"  "(kN)"        1.0    0.0     0
+"RotTorq"    "(kN·m)"      1.0    0.0     0
+"LSSGagMya"  "(kN·m)"      1.0    0.0     0
+"LSSGagMza"  "(kN·m)"      1.0    0.0     0
+"YawBrFxp"   "(kN)"        1.0    0.0     0
+"YawBrFyp"   "(kN)"        1.0    0.0     0
+"YawBrFzp"   "(kN)"        1.0    0.0     0
+"YawBrMxp"   "(kN·m)"      1.0    0.0     0
+"YawBrMyp"   "(kN·m)"      1.0    0.0     0
+"YawBrMzp"   "(kN·m)"      1.0    0.0     0
+"TwrBsFxt"   "(kN)"        1.0    0.0     0
+"TwrBsFyt"   "(kN)"        1.0    0.0     0
+"TwrBsFzt"   "(kN)"        1.0    0.0     0
+"TwrBsMxt"   "(kN·m)"      1.0    0.0     0
+"TwrBsMyt"   "(kN·m)"      1.0    0.0     0
+"TwrBsMzt"   "(kN·m)"      1.0    0.0     0
+"TwHt1MLxt"  "(kN·m)"      1.0    0.0     0
+"TwHt1MLyt"  "(kN·m)"      1.0    0.0     0
+"TwHt1MLzt"  "(kN·m)"      1.0    0.0     0
+"Fair1Ten"   "(kN)"        1.0    0.0     0
+"Fair1Ang"   "(deg)"       1.0    0.0     0
+"Anch1Ten"   "(kN)"        1.0    0.0     0
+"Anch1Ang"   "(deg)"       1.0    0.0     0
+"Fair2Ten"   "(kN)"        1.0    0.0     0
+"Fair2Ang"   "(deg)"       1.0    0.0     0
+"Anch2Ten"   "(kN)"        1.0    0.0     0
+"Anch2Ang"   "(deg)"       1.0    0.0     0
+"Fair3Ten"   "(kN)"        1.0    0.0     0
+"Fair3Ang"   "(deg)"       1.0    0.0     0
+"Anch3Ten"   "(kN)"        1.0    0.0     0
+"Anch3Ang"   "(deg)"       1.0    0.0     0
+"Fair4Ten"   "(kN)"        1.0    0.0     0
+"Fair4Ang"   "(deg)"       1.0    0.0     0
+"Anch4Ten"   "(kN)"        1.0    0.0     0
+"Anch4Ang"   "(deg)"       1.0    0.0     0
+"Fair5Ten"   "(kN)"        1.0    0.0     0
+"Fair5Ang"   "(deg)"       1.0    0.0     0
+"Anch5Ten"   "(kN)"        1.0    0.0     0
+"Anch5Ang"   "(deg)"       1.0    0.0     0
+"Fair6Ten"   "(kN)"        1.0    0.0     0
+"Fair6Ang"   "(deg)"       1.0    0.0     0
+"Anch6Ten"   "(kN)"        1.0    0.0     0
+"Anch6Ang"   "(deg)"       1.0    0.0     0
+"Fair7Ten"   "(kN)"        1.0    0.0     0
+"Fair7Ang"   "(deg)"       1.0    0.0     0
+"Anch7Ten"   "(kN)"        1.0    0.0     0
+"Anch7Ang"   "(deg)"       1.0    0.0     0
+"Fair8Ten"   "(kN)"        1.0    0.0     0
+"Fair8Ang"   "(deg)"       1.0    0.0     0
+"Anch8Ten"   "(kN)"        1.0    0.0     0
+"Anch8Ang"   "(deg)"       1.0    0.0     0
+"TipSpdRat"  "(-)"         1.0    0.0     0
+"RotCp"      "(-)"         1.0    0.0     0
+"RotCt"      "(-)"         1.0    0.0     0
+"RotCq"      "(-)"         1.0    0.0     0
+-----  Calculated Channels  ----------------------------------------------------
+0                 NumCChan          The number calculated channels to generate.
+1234567890        Seed              The integer seed for the random number generator (-2,147,483,648 to 2,147,483,647)
+Col_Title   Units    Equation       Put each field in quotes.  Titles and units are limited to 10 characters.  NumCChan rows of data follow.
+-----  Load Roses  -------------------------------------------------------------
+2                 NumRoses          The number of load roses to generate.
+Rose Name       Units    Channel1       Channel2     nSectors
+"RootFxyc1"    "(kN)"   $RootFxc1$     $RootFyc1$      12
+"TwHt1MLxyt"   "(kN·m)" $TwHt1MLxt$    $TwHt1MLyt$      6
+-----  Time and Wind Speed  ----------------------------------------------------
+$Time$            TimeChan          The channel containing time.
+$WindVxi$         WSChan            The primary wind-speed channel (used for mean wind speed and turbulence intensity, 0 for none)
+-----  Statistics and Extreme Events  ------------------------------------------
+true 		  DoStats           Generate statistics of all the channels.
+true		  WrStatsTxt        Write the stats to a text file?
+false             WrStatsXLS        Write the stats to an Excel file?
+4                 NumSFChans        Number of channels that will have summary statistics generated for them.
+$RootFxyc1_3$ $RootFxyc1_7$ $TwHt1MLxyt_2$ $TwHt1MLxyt_4$            SFChans           List of channels that will have summary statistics generated for them.  Must number NumSFChans.
+-----  Distributions -----------------------------------------------------------
+false             UserDistrib         User defined distribution?  true = load user-specified distribution, false = only use Weibull wind distribution
+2.4               WeibullShape        Weibull shape factor. If WeibullShape=2, enter the mean wind speed for WeibullScale.
+3                 WeibullScale        Weibull scale factor. If WeibullShape<>2.  Otherwise, enter the mean wind speed.
+3                 WSin                Cut-in wind speed for the turbine.
+21                WSout               Cut-out wind speed for the turbine.
+44                WSmax               Maximum  wind speed value for the wind-speed bins.
+1                 WSMaxBinSize        Maximum width of a wind-speed bin.
+0                 nDistribVars        Number of independent variables in the user-specified distribution, ignored if UserDistrib = false
+""                DistribName         Filename of the user-supplied distribution table, ignored if UserDistrib = false
+-----  Fatigue  ----------------------------------------------------------------
+15                nFatigueChannels    The number of fatigue channels.  Next six lines ignored if zero.
+0.0               FiltRatio           The fraction of the maximum range of each channel used as a cutoff range for the racetrack filter.  Use zero for no filter.
+630720000         DesignLife          Number of seconds in the design lifetime  (20 years = 630720000 seconds).
+1                 Availability        Fraction of the design life the turbine is operating when winds are between Vin and Vout
+false		  BinCycles           Bin the rainflow cycles?
+0.5               UCMult              Multiplier for binning unclosed cycles.  (0 discards, 1 counts as a full cycle)
+true              DoShortTerm         Compute simple (unweighted) damage-equivalent loads and damage rates.
+true              DoLife              Do lifetime-related calculations?
+true              DoAggregate         Compute a DELs and a damage result based on an aggregate of all the input files (does not use the wind spped distribution)
+false             WrShortTermTxt      Write short-term results to plain-text files?
+true              WrShortTermXLS      Write short-term resultsto an Excel workbook?
+false             WrLifeTxt           Write lifetime results to plain-text files?
+true              WrLifeXLS           Write lifetime results to an Excel workbook?
+1                 EquivalentFrequency The frequency of the damage equivalent load (Hz)
+false             DEL_AsRange         true = report DELs as a range value,  false = report as a one-sided amplitude
+1                 DEL_Type            1 = fixed mean, 2 = zero mean, 3 = both 
+1                 GoodmanFlag         0 = no Goodman correction, 1 = use Goodman correction, 2 = compute results with and without Goodman correction
+Channel#  NSlopes  SNslopeLst      BinFlag  BinWidth/Number  TypeLMF     LUlt    BinWidth not used when BinCycles is false. nFatigueChannels rows of data follow.  LUlt >> LMF
+$RootFxc1$   1        10            BW	            20.0       161	  2500
+$RootFyc1$   1        10            BW              20.0        33        2500
+$RootFxyc1_1$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_2$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_3$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_4$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_5$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_6$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_7$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_8$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_9$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_10$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_11$   1        10            BW	            20.0       161	  2500
+$RootFxyc1_12$   1        10            BW	            20.0       161	  2500
+$RootFzc1$   1        10            BW              40.0       490        4000
+1                 NumDELGroups
+Name        NChannels      ChannelList
+"RootFxyc1"    14          1 3 4 5 6 7 8 2 9 10 11 12 13 14
+-----  Input Files  ------------------------------------------------------------
+1                 FileFormat         Format of input files.  1 = FAST ascii, 2 = FAST binary
+1  1.1   1.3   1.5   1.7    (Weibull-Weighted Normal Operation: NumNormFiles, PSF1, PSF2, PSF3, PSF4)
+"5MW_Land_DLL_WTurb.out"
+0  1.1   1.3   1.5   1.7    (Weibull-Weighted Idling: NumIdleFiles, PSF1, PSF2, PSF3, PSF4)
+0  1.2   1.3   1.4   1.6    (Discrete Events: NumDiscFiles, PSF1, PSF2, PSF3, PSF4)9                NumFiles          The number of input files to read.
+==EOF==                             DO NOT REMOVE OR CHANGE.  MUST COME JUST AFTER LAST LINE OF VALID INPUT.
